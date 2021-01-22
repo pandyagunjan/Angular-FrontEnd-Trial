@@ -120,5 +120,17 @@
       }
     }
   },
-  "defaultProject": "todo"
+  "defaultProject": "todo",
+  "cli": {
+    "analytics": "aacee490-5e60-4671-997c-bf89e14b5dce"
+  },
+  "styles": [
+    "src/styles.scss",
+    "node_modules/bootstrap/dist/css/bootstrap.min.css"
+  ],
+  "scripts": [
+    "node_modules/jquery/dist/jquery.min.js",
+    "node_modules/popper.js/dist/umd/popper.js",
+    "node_modules/bootstrap/dist/js/bootstrap.min.js"
+  ]
 }
