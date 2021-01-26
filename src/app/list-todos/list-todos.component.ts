@@ -8,10 +8,10 @@ export class Todo {
     public description:string,
     public done:boolean,
     public targetDate:Date
-    
+
   )
   {
-  }  
+  }
 }
 
 @Component({
@@ -70,4 +70,9 @@ export class ListTodosComponent implements OnInit {
 
   }
 
+  // tslint:disable-next-line:typedef
+  addTodo()
+  {
+    this.router.navigate(['todos' , -1]);
+  }
 }
